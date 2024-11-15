@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+    <title>XessTrust Real Estate Management</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/xesstrust.png" alt="">
+            <span><strong>XessTrust Real Estate</strong></span>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#" onclick="toggleContent()">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li id="form" onclick="toggleContent()">Form</li>
+            </ul>
+        </div>
+    </header>
+    <div id="content1" class="content visible">
+    <nav>
+        <h2>Giving Quality Luxury Real Estate Agent On The Run.</h2>
+        <a href="#main"><button>your dream house</button></a>
+        <h3>WHAT ARE YOU INTERESTED IN?</h3>
+    </nav>
+    <section class="property1 view">
+        <a href="#footer"><h2>BUY A PROPERTY</h2></a>
+    </section>
+    <section class="property2 view">
+        <a href="#footer"><h2>RENT A PROPERTY</h2></a>
+    </section>
+    <section class="property3 view">
+        <a href="#footer"><h2>SELL A PROPERTY</h2></a>
+    </section>
+    <section class="property4 view">
+        <a href="#footer"><h2>PROJECT DESIGN</h2></a>
+    </section>
+    <h2 class="main" id="main">AVAILABLE HOUSES AND PROPERTIES</h2>
+    <main>
+        <section id="gallery1" class="gallery show">
+            <div class="product">
+                <div>
+                    <img src="images/house-1.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">1Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">1 Bed Room | 2 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N60,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleGallery()">VIEW ALL</button>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/house-2.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">2Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">2 Bed Room | 3 Bath Room |</span>
+                    <span class="prolocation">Location : Lekki phase1 off freedom way</span>
+                    <span class="proprice"><strong>N140, 000, 000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleGallery()">VIEW ALL</button>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/house-3.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleGallery()">VIEW ALL</button>
+            </div>
+            <button class="mainbtn" onclick="toggleContent()">MAKE YOUR DREAM COME TO REALITY. CLICK HERE NOW TO BOOK!</button>
+        </section>
+        <section id="gallery2" class="gallery">
+            <div class="product">
+                <div>
+                    <img src="images/house-1.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">1Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">1 Bed Room | 2 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N60,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/house-2.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">2Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">2 Bed Room | 3 Bath Room |</span>
+                    <span class="prolocation">Location : Lekki phase1 off freedom way</span>
+                    <span class="proprice"><strong>N140, 000, 000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/house-3.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/house-4.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/house-5.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/house-6.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/land-4.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">Duplex (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Ikorodu Lagos</span>
+                    <span class="proprice"><strong>Price : N600,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/land-1.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">one Hectares (For sale)</h3>
+                    <span class="prodesc">10,000 square meters.</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/land-2.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">one Hectares (For sale)</h3>
+                    <span class="prodesc">10,000 square meters.</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/land-3.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">one Hectares (For sale)</h3>
+                    <span class="prodesc">10,000 square meters.</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/house-10.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/house-11.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+            <div class="product">
+                <div>
+                    <img src="images/house-12.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/house-13.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/house-14.jpg" alt="">
+                </div>
+                <div class="productdetails">
+                    <h3 class="proname">3Bed Room Flat (For sale)</h3>
+                    <span class="prodesc">3 Bed Room | 4 Bath Room |</span>
+                    <span class="prolocation">Location : Abijo GRA Lagos</span>
+                    <span class="proprice"><strong>N70,000,000</strong></span>
+                </div>
+                <button class="probtn" onclick="toggleContent()">BOOK NOW</button>
+            </div> 
+        </section>
+    </main>
+    <section class="aboutsec" id="about">
+        <div class="aboutinfo">
+            <div>About our company</div>
+            <div>With a steadfast commitment to delivering exceptional real estate services, we pride ourselves on our deep market knowledge and dedication to client satisfaction.</div>
+            <div>Our team of experienced professionals strives to ensure a seamless and rewarding property experience for every client.</div>
+        </div>
+        <div class="lineheight"></div>
+        <h2>FEATURES PROPERTY</h2>
+        <div class="aboutpic" onclick="toggleContent()">
+            <img src="images/adv-1.jpg" alt="">
+            <img src="images/adv-2.jpg" alt="">
+            <img src="images/adv-3.jpg" alt="">
+        </div>
+    </section>
+    </div>
+    <div id="content2" class="content">
+        <div class="forminfor1">
+            <h2>Make your Deal with us.</h2>
+            <p>Interested in applying? Fill out some info and we will be in touch shortly! We can't wait to hear from you!</p>
+        </div>
+        <div class="form-container">
+            <h2>Information Form</h2>
+            <form id="contact-form">
+                <div class="forminfor2">
+                    <h4>Please note that by filling this form, you are applying for a property in lagos for <span>BUYING AND RENTING</span> only but in buying and selling of property all over nigeria is allowed</h4>
+                </div>
+              <!-- Name Section -->
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+              <!-- Email Section -->
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <!-- Checkbox for News Subscription -->
+              <div class="form-group">
+                <label>
+                  <input type="checkbox" name="newsletter">
+                  Sign up for news and updates
+                </label>
+              </div>
+              <!-- Phone Section -->
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <!-- Location Section -->
+              <div class="form-group">
+                    <label for="country">Your Current Location</label>
+                    <select id="country" name="country" required>
+                    <option value="Nigeria">Nigeria</option>
+                    <!-- Add more options as needed -->
+                    </select>
+                    <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
+                    </div>
+              </div>
+              <div class="form-group">
+                <label for="address1">Your House Address</label>
+                <input type="text" id="address" name="address1" required>
+              </div>
+              <!-- Relationship Status -->
+              <div class="form-group">
+                <label>Relationship</label>
+                <div class="radio-group">
+                  <label><input type="radio" name="relationship" value="Single" required>Single</label>
+                  <label><input type="radio" name="relationship" value="Married">Married</label>
+                  <label><input type="radio" name="relationship" value="In a Relationship">In a Relationship</label>
+                  <label><input type="radio" name="relationship" value="Family Personal">Family Personal</label>
+                </div>
+              </div>
+              <!-- Demands -->
+              <div class="form-group">
+                <label>What are you demanding or selling? (required)</label>
+                <div class="checkbox-group">
+                  <label><input type="checkbox" name="demand[]" value="House">House</label>
+                  <label><input type="checkbox" name="demand[]" value="Land">Land</label>
+                  <label><input type="checkbox" name="demand[]" value="Apartment">Apartment</label>
+                </div>
+              </div>
+              <!-- Services Interested In -->
+              <div class="form-group">
+                <label>What services are you interested in? (required)</label>
+                <div class="checkbox-group">
+                  <label><input type="checkbox" name="services[]" value="Rent">Rent a property</label>
+                  <label><input type="checkbox" name="services[]" value="Buy">Buy a property</label>
+                  <label><input type="checkbox" name="services[]" value="Sell">Sell a property</label>
+                </div>
+              </div>
+              <!-- Budget -->
+              <div class="form-group">
+                <label for="budget">What is your budget? (required)</label>
+                <input type="text" id="budget" name="budget" required>
+              </div>
+              <!-- Size of Desired Property -->
+              <div class="form-group">
+                <label for="size">Size of your desired property (e.g. number of rooms or size of land)</label>
+                <input type="text" id="size" name="size">
+              </div>
+              <!-- Location Choice -->
+              <div class="form-group">
+                <label for="location">Choose your location (which location do you prefer your new site)</label>
+                <input type="text" id="location" name="location" placeholder="Specify a location" required>
+              </div>
+              <!-- Additional Info -->
+              <div class="form-group">
+                <label for="additionalInfo">Other information you'd like to share (optional)</label>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Optional additional information..."></textarea>
+              </div>
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message here..."></textarea>
+              </div>
+              <!-- Submit Button -->
+              <div class="form-group">
+                <button type="submit" class="submit-btn">Send</button>
+              </div>
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="logo">
+            <img src="images/xesstrust.png" alt="">
+            <h3>XessTrust Real Estate</h3>
+        </div>
+        <div class="contact">
+            <h2>CONTACT US</h2>
+            <p>xesstrustmarket@gmail.com</p>
+            <p>+234 9015 589 3941</p>
+        </div>
+        <div class="location">
+            <h2>LOCATION</h2>
+            <p>12b owoloye adeoye, samadint, whitesand, isheri osun. Lagos Nigeria.</p>
+        </div>
+        <div class="follow">
+            <h4>Follow us on</h4>
+            <div class="icon">
+                <a href="https://www.facebook.com/Xesstrust" target="_blank"><img src="images/facebook-1.png" alt=""></a>
+                <a href="" target="_blank"><img src="images/instagram-1.png" alt=""></a>
+                <a href="" target="_blank"><img src="images/twitter-1.png" alt=""></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@ 2024 XessTrust.market</p>
+        </div>
+        <a href="tel:+2349015893941" class="call-button message">
+            <img src="images/phone.png" alt="Call us">
+        </a>
+        <a href="https://wa.me/+2349015893941?text=Hello%20I%20have%20a%20question?" target="_blank" class="whatsapp-fixed message">
+            <img src="images/whatsapp.png" alt="Chat with us on WhatsApp">
+        </a>
+        <a href="mailto:xesstrustmarket@gmail.com?subject=Contact%20Us&body=Hello%20XessTrust!" target="_blank" class="gmail-fixed message">
+            <img src="images/gmail.png" alt="Gmail Icon">
+        </a>
+    </footer>
+    <script>
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "iMrlRETPQGcYSd67f",
+            });
+        })();
+    </script>
+    <script src="./default.js" defer></script>
+</body>
+</html>
