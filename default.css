@@ -661,7 +661,7 @@ background-color: #219150;
         margin: 10px auto;
     }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 361px) and (max-width: 480px){
     .message{
         width: 50px; 
         height: 50px;
@@ -751,6 +751,150 @@ background-color: #219150;
     }
     footer .logo h3 {
         font-size: 16px;
+    }
+    footer .contact h2 {
+        font-size: 18px;
+    }
+    footer .contact p {
+        font-size: 16px;
+    }
+    footer .contact {
+        width: 50%;
+        line-height: 30px;
+        margin-right: 0;
+        position: absolute;
+        top: 0;
+        right:40px;
+    }
+    footer .location {
+        width: 50%;
+        line-height: 20px;
+        margin-right: 0;
+        position: absolute;
+        bottom: 40px;
+        right:40px;
+    }
+    footer .location h2 {
+        font-size: 18px;
+    }
+    footer .location p {
+        font-size: 16px;
+    }
+    footer .follow {
+        bottom: 40px;
+        left: 10px;
+        line-height: 20px;
+    }
+    .follow a img {
+        width: 30px;
+        height: 30px;
+    }
+    footer .copyright {
+        right: 30%;
+    }
+    .forminfor1 h2 {
+        font-size: 25px;
+    }
+    .forminfor1 p {
+        font-size: 16px;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .forminfor2{
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .message{
+        width: 50px; 
+        height: 50px;
+        right: 10px;
+    }
+    .call-button {
+        bottom: 130px;
+    }
+    .gmail-fixed {
+        bottom: 70px;
+    }
+    .whatsapp-fixed {
+        bottom: 10px;
+    }
+    .navbar ul {
+        padding: 0;
+        gap: 0;
+    }
+    .navbar ul li {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 10px 5px;
+    }
+    nav h2 {
+        width: 75%;
+        font-size: 25px;
+    }
+    nav a button {
+        left: 25%;
+        bottom: 30%;
+        padding: 16px 20px;
+        font-size: 20px;
+        width: 50%;
+    }
+    nav h3 {
+        left: -10px;
+        width: 60%;
+        font-size: 25px;
+    }
+    .view {
+        height: 80vh;
+    }
+    .view a {
+        top: 50%;
+        right: 20%;
+    }
+    .view a h2{
+        color: #fff;
+    }
+    .mainbtn {
+        padding: 18px;
+        font-size: 16px;
+    }
+    .aboutsec .aboutinfo {
+        margin: 10px 10px;
+        flex-direction: column;
+    }
+    .aboutinfo div:nth-child(1) {
+        font-size: 30px;
+        font-weight: 600;
+        width: 100%;
+    }
+    .aboutinfo div:nth-child(2) {
+        font-size: 14px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .aboutinfo div:nth-child(3) {
+        font-size: 14px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .lineheight {
+        padding: 5px;
+    }
+    .aboutpic img {
+        max-width: 100%;
+        width: 80%;
+        height: 80%;
+    }
+    footer .logo {
+        width: 50%;
+    }
+    footer .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    footer .logo h3 {
+        font-size: 14px;
     }
     footer .contact h2 {
         font-size: 18px;
