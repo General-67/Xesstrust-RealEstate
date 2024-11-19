@@ -890,11 +890,12 @@ background-color: #219150;
         width: 50%;
     }
     footer .logo img {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
     footer .logo h3 {
-        font-size: 14px;
+    font-size: 13px;
+    width: 40%;
     }
     footer .contact h2 {
         font-size: 18px;
